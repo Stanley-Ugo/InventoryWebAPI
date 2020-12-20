@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +33,11 @@ namespace InventoryWebAPI
             });
 
             services.AddDbContext<ApplicationDbContext>( options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddSwaggerGen( c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My Web API", Version = "v1"});
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +53,13 @@ namespace InventoryWebAPI
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI( c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API v1");
+            });
 
             app.UseEndpoints(endpoints =>
             {
