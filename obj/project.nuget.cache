@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0PaY7klbbCYPalzSziFslfgLyW4B9gHeG1nvT4k2igOPQT+vsLiJAw9xWJM6cBHX+9hYbrvUV9FLfOPUFmoQZg==",
+  "dgSpecHash": "dA+QOKfMQPXtxdhxCgQRfKO/PxScdvdh1h8Y98Xx6HysRu49bbYbfxzlfWRMRBtP5yF4seGy0DAb9PoWd9m5wA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\InventoryWebAPI\\InventoryWebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\iamKosmic\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Users\\iamKosmic\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\iamKosmic\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\iamKosmic\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
