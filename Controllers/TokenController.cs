@@ -66,6 +66,7 @@ namespace InventoryWebAPI.Controllers
             }
         }
 
+        [HttpGet]
         public async Task<UserInfo> GetUser(string userName, string password)
         {
             return await _context.UserInfo.FirstOrDefaultAsync(u => u.UserName == userName && u.Password == password);
