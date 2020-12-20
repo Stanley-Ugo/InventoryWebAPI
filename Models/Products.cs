@@ -14,6 +14,8 @@ namespace InventoryWebAPI.Models
         public int ProdId { get; set; }
         public string ProdName { get; set; }
         public string Category { get; set; }
+
+        [Column(TypeName = "decimal(18,4)")]
         public decimal UnitPrice { get; set; }
         public int StockQty { get; set; }
     }
