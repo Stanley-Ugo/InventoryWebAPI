@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "u1rn59ZJ5iAyfRhC9c0eIQlfFVpfyXX8OcxpI4aWxBeyRz5DYlS9JhyWAOHa8MN8Prxe5/slByG5c3XyFAfV3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\InventoryWebAPI\\InventoryWebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\iamKosmic\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\iamKosmic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
