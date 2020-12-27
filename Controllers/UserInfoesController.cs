@@ -27,7 +27,7 @@ namespace InventoryWebAPI.Controllers
             return await _context.UserInfo.ToListAsync();
         }
 
-        // GET: api/UserInfoes/5
+        // GET: api/UserInfoes/5 
         [HttpGet("{id}")]
         public async Task<ActionResult<UserInfo>> GetUserInfo(int id)
         {
