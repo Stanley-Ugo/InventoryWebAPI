@@ -67,6 +67,7 @@ namespace InventoryWebAPI.Controllers
             }
         }
 
+        //Get User Method
         [HttpGet]
         public async Task<UserInfo> GetUser(string userName, string password)
         {
