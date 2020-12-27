@@ -74,6 +74,7 @@ namespace InventoryWebAPI.Controllers
             return NoContent();
         }
 
+
         // POST: api/UserInfoes
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
@@ -85,6 +86,7 @@ namespace InventoryWebAPI.Controllers
 
             return CreatedAtAction("GetUserInfo", new { id = userInfo.UserId }, userInfo);
         }
+
 
         // DELETE: api/UserInfoes/5
         [HttpDelete("{id}")]
