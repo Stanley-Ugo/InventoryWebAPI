@@ -87,7 +87,6 @@ namespace InventoryWebAPI.Controllers
             return CreatedAtAction("GetUserInfo", new { id = userInfo.UserId }, userInfo);
         }
 
-
         // DELETE: api/UserInfoes/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<UserInfo>> DeleteUserInfo(int id)
