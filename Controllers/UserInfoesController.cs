@@ -20,7 +20,7 @@ namespace InventoryWebAPI.Controllers
             _context = context;
         }
 
-        // GET: api/UserInfoes
+        // GET: api/UserInfoes 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<UserInfo>>> GetUserInfo()
         {
