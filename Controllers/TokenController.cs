@@ -26,6 +26,7 @@ namespace InventoryWebAPI.Controllers
             _context = context;
         }
 
+        //Token Post Method
         [HttpPost]
         public async Task<IActionResult> Post(UserInfo userInfo)
         {
