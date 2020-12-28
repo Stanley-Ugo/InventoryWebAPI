@@ -24,6 +24,8 @@ namespace InventoryWebAPI.Models
         [Column(TypeName = "decimal(18,4)")]
         [Required]
         public decimal UnitPrice { get; set; }
+
+        [Required]
         public int StockQty { get; set; }
     }
 }
