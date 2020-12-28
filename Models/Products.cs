@@ -17,6 +17,8 @@ namespace InventoryWebAPI.Models
 
         [Required]
         public string ProdName { get; set; }
+
+        [Required]
         public string Category { get; set; }
 
         [Column(TypeName = "decimal(18,4)")]
