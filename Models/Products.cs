@@ -11,6 +11,7 @@ namespace InventoryWebAPI.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Required]
         public int ProdId { get; set; }
         public string ProdName { get; set; }
         public string Category { get; set; }
