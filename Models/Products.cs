@@ -14,6 +14,8 @@ namespace InventoryWebAPI.Models
 
         [Required]
         public int ProdId { get; set; }
+
+        [Required]
         public string ProdName { get; set; }
         public string Category { get; set; }
 
